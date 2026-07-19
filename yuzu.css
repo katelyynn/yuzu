@@ -1,0 +1,186 @@
+:root {
+    --font-primary: Iosvmata, "gg sans", sans-serif;
+    --font-display: var(--font-primary);
+
+    --font-size: 13px;
+    --line-height: 17px;
+
+    --text-alt: #666;
+
+    --custom-message-spacing-vertical-container-cozy: 0px !important;
+    --custom-message-margin-horizontal: var(--chat-sides) !important;
+    --chat-avatar-size: 36px;
+    --custom-message-avatar-size: var(--chat-avatar-size);
+    --custom-message-avatar-decoration-size: calc(var(--chat-avatar-size) * 1.2);
+
+    --chat-markup-line-height: var(--line-height);
+
+    --font-weight-normal: 100;
+
+    --chat-sides: 10px;
+
+    --font-weight-semibold: 100;
+}
+
+ .groupStart__5126c {
+    --custom-group-spacing-start: 14px !important;
+    min-height: unset !important;
+}
+
+.avatar_c19a55 {
+    margin-top: 0px !important;
+}
+.avatarDecoration_c19a55 {
+    margin-top: -4px !important;
+}
+
+.theme-dark {
+    --background-base-lowest: #151515 !important;
+    --background-base-lower: #151515 !important;
+    --background-base: #151515 !important;
+
+    /*--message-background-hover: #202020 !important;*/
+    --message-background-hover: transparent !important;
+
+    --text-default: #d0d0d0 !important;
+    --text-muted: #505050 !important;
+    --text-subtle: #808080 !important;
+
+    --interactive-text-default: var(--text-default) !important;
+
+    --channel-text-area-placeholder: var(--text-muted) !important;
+
+    --border-muted: #303030 !important;
+
+    --chat-background-default: transparent !important;
+
+    --reaction-background-default: transparent !important;
+    --reaction-background-hover: transparent !important;
+    --reaction-background-active: transparent !important;
+
+    --reaction-text-default: var(--text-muted) !important;
+    --reaction-text-hover: var(--text-default) !important;
+    --reaction-text-active: var(--text-default) !important;
+}
+
+.textArea__74017,
+.username_c19a55,
+.markup__75297,
+body {
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    font-weight: 100;
+}
+
+/* chat username     */
+.header_c19a55 {
+    line-height: var(--line-height) !important;
+}
+
+.clanTagChiplet_c19a55 {
+    font-size: var(--font-size) !important;
+    line-height: var(--line-height) !important;
+    border-radius: unset;
+    background: unset;
+
+    &:before, &:after {
+        color: var(--text-alt);
+    }
+
+    &:before {
+        content: '[';
+    }
+    &:after {
+        content: ']';
+    }
+}
+
+.text-xs\/semibold_cf4812 {
+    font-weight: 100;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+}
+
+.editor__1b31f {
+    caret-color: var(--text-muted);
+}
+
+.channelTextArea_f75fb0 {
+    background: transparent !important;
+    margin-bottom: unset !important;
+}
+.channelTextArea__74017 {
+    border: unset;
+    border-radius: unset;
+}
+.form_f75fb0, .formWithLoadedChatInput_f75fb0 {
+    padding-inline: 0px;
+    margin: 0 var(--chat-sides);
+}
+
+.sansAttachButton__74017 {
+    padding-inline-start: unset;
+}
+.attachWrapper__0923f {
+    padding: unset;
+    width: calc(var(--chat-avatar-size) + var(--chat-sides));
+}
+.attachButton__74017 {
+    margin-inline: unset;
+    margin: 0 auto;
+}
+
+
+.reactions__23977 {
+    padding: unset;
+    margin: unset;
+}
+.reaction__23977 {
+    margin: unset;
+    border: unset;
+    border-radius: unset;
+    padding: 0 2px;
+}
+.reactionInner__23977 {
+    padding: unset;
+
+    & > div {
+        display: flex;
+        align-items: center;
+    }
+
+    .emoji {
+        height: unset;
+        margin: unset;
+        width: 14px;
+        aspect-ratio: 1 / 1;
+    }
+}
+.reactionCount__23977 {
+    margin: unset;
+    margin-left: 4px;
+    font-size: 12px;
+    line-height: var(--line-height);
+    position: relative;
+    top: 2px;
+
+    &:before {
+        content: 'x';
+    }
+}
+.reactionBtn__23977.forceShow__23977 {
+    border: unset !important;
+    border-radius: unset !important;
+    margin: unset !important;
+    padding: unset !important;
+    margin-left: 4px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon__23977 {
+        width: 14px;
+        height: 14px;
+    }
+}

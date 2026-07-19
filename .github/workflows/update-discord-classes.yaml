@@ -19,7 +19,6 @@ jobs:
       - id: update
         uses: metro420yt/class-update@v1
         with:
-          folder: discord
           ext: css
           diff: "https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt"
 
